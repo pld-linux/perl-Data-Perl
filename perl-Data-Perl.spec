@@ -4,7 +4,6 @@
 #
 %define		pdir	Data
 %define		pnam	Perl
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data::Perl - Base classes wrapping fundamental Perl data types.
 Name:		perl-Data-Perl
 Version:	0.002009
