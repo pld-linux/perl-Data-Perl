@@ -6,14 +6,14 @@
 %define		pnam	Perl
 Summary:	Data::Perl - Base classes wrapping fundamental Perl data types.
 Name:		perl-Data-Perl
-Version:	0.002009
+Version:	0.002011
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2c38f8d7b50a986602a93b93a3cfe40f
-URL:		http://search.cpan.org/dist/Data-Perl/
+Source0:	https://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	caf1296e8fe574c44b1270f9b5018c06
+URL:		https://search.cpan.org/dist/Data-Perl/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -58,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes README.mkdn
 %{perl_vendorlib}/Data/*.pm
 %{perl_vendorlib}/Data/Perl
 %{_mandir}/man3/*
