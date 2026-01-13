@@ -7,7 +7,7 @@
 Summary:	Data::Perl - Base classes wrapping fundamental Perl data types.
 Name:		perl-Data-Perl
 Version:	0.002011
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
